@@ -1,0 +1,30 @@
+
+.hero {
+    height: 60vh;
+    font-size: 1.2rem;
+    border-radius: 8px;
+    padding-inline: 4%;
+    margin-block-start: 150px;
+    background: var(--main-color-100);
+}
+
+.hero h1.hero-title {
+    font-size: 2.2em;
+    color: var(--main-color-10);
+}
+
+.hero p.hero-paragraph {
+    font-size: 1.4em;
+}
+
+.hero div.cta a.cta-btn {
+    font-size: 1.2em;
+    padding: 4px 6px;
+    border-radius: 8px;
+    background: var(--main-color-50);
+}
+
+.hero div.cta a.cta-btn:hover {
+    color: black;
+    background: var(--main-color-30);
+}

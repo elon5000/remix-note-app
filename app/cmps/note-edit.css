@@ -1,0 +1,32 @@
+
+form.note-edit {
+    margin-top: 20px;
+    border-radius: 8px;
+    padding-block: 1em;
+    border: 2px solid var(--main-color-10);
+    background: var(--main-color-100);
+}
+
+form.note-edit > * {
+    margin-block-end: 2em;
+}
+
+form.note-edit div.field-container label {
+    cursor: pointer;
+}
+
+form.note-edit div.form-actions button.add-note-btn {
+    border: none;
+    cursor: pointer;
+    font-size: 1.4em;
+    background: none;
+    color: var(--main-color-10);
+}
+
+form.note-edit div.form-actions button.add-note-btn:hover {
+    color: whitesmoke
+}
+
+form.note-edit div.form-actions button.add-note-btn:active {
+    transform: scale(0.95);
+}

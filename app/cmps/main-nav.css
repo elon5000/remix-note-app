@@ -1,0 +1,7 @@
+nav.main-nav {
+    min-width: 150px;
+}
+
+nav.main-nav ul li.main-nav-item a.active {
+    color: var(--main-color-100);
+}

@@ -30,3 +30,8 @@ form.note-edit div.form-actions button.add-note-btn:hover {
 form.note-edit div.form-actions button.add-note-btn:active {
     transform: scale(0.95);
 }
+
+form.note-edit div.form-actions button.add-note-btn:disabled {
+    transform: scale(0.95);
+    color: rgba(245, 245, 245, 0.598);
+}

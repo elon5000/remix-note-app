@@ -24,3 +24,26 @@ div.note-preview div.note-preview-header {
 div.note-preview>* {
     margin-block: 12px;
 }
+
+div.note-preview button.delete-btn {
+    opacity: 0;
+    border: none;
+    cursor: pointer;
+    font-size: 1.4em;
+    background: none;
+    width: fit-content;
+    color: whitesmoke;
+}
+
+div.note-preview:hover button.delete-btn {
+    opacity: 1;
+    border: none;
+    display: block;
+    font-size: 1.4em;
+    background: none;
+    width: fit-content;
+}
+
+div.note-preview:hover button.delete-btn:hover {
+    color: rgb(192, 68, 68);
+}

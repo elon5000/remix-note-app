@@ -9,12 +9,12 @@ export default function MainNav() {
     return <nav className="flex space-between align-center main-nav">
         <ul>
             <li className="main-nav-item">
-                <NavLink to="/">Home</NavLink>
+                <NavLink title="Home" to="/">Home</NavLink>
             </li>
         </ul>
         <ul>
             <li className="main-nav-item">
-                <NavLink to="/notes">My Notes</NavLink>
+                <NavLink title="Notes" to="/notes">My Notes</NavLink>
             </li>
         </ul>
     </nav>

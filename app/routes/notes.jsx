@@ -46,6 +46,7 @@ export async function action({ request }) {
     const notes = await getNotes()
     notes.push(note)
     await saveNotes(notes)
+    // * Redirect response we send back - causes refresh
     return redirect('/notes')
 }
 

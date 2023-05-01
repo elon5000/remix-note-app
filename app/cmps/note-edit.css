@@ -1,10 +1,10 @@
 
 form.note-edit {
-    margin-top: 20px;
+    margin-block: 20px;
     border-radius: 8px;
     padding-block: 1em;
-    border: 2px solid var(--main-color-10);
     background: var(--main-color-100);
+    border: 2px solid var(--main-color-10);
 }
 
 form.note-edit > * {
